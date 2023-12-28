@@ -49,7 +49,6 @@ function randomquote(){
         '- Paul Terry',
     ]
 
-
     var random = Math.floor(Math.random() * Quotes.length)
 
     document.getElementById('PQ').innerHTML = Quotes[random]
