@@ -21,7 +21,16 @@ function randomquote(){
          '“If you want your children to be intelligent, read them fairy tales. If you want them to be more intelligent, read them more fairy tales.”',
          '“Logic will get you from A to Z; imagination will get you everywhere.”',
          '“Whenever I feel the need to exercise, I lie down until it goes away.”',
-
+         '“Be careful about reading health books. Some fine day you will die of a misprint.”',
+         '“The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.”',
+         '“Facts do not cease to exist because they are ignored.”',
+         '“Man is the only creature who refuses to be what he is.”',
+         '“Happy Hunger Games! And may the odds be ever in your favor.”',
+        '“A good friend will always stab you in the front.”',
+        '“May you live every day of your life.”',
+        '“Be kind, for everyone you meet is fighting a harder battle.”',
+        '“There is a fine line between genius and insanity. I have erased this line.”',
+        '“The fault, dear Brutus, is not in our stars, but in ourselves.”        '
 
         ]
    
@@ -47,10 +56,27 @@ function randomquote(){
         '- Albert Einstein',
         '- Albert Einstein',
         '- Paul Terry',
+        '― Markus Herz',
+        '― Isaac Asimov',
+        '― Aldous Huxley, Complete Essays, Vol. II: 1926-1929',
+        '― Albert Camus',
+        '― Suzanne Collins, The Hunger Games',
+        '― Oscar Wilde',
+        '― Jonathan Swift',
+        '― Plato',
+        '― Oscar Levant',
+        '― William Shakespeare, Julius Caesar'
+        
+
+
+
     ]
+    
+
 
     var random = Math.floor(Math.random() * Quotes.length)
 
     document.getElementById('PQ').innerHTML = Quotes[random]
     document.getElementById('sayer').innerHTML = SayerQuote[random]
 }
+

@@ -2,6 +2,8 @@ body{
     background-image: url(../imgs/luisa-ji-SpKT27bNSOQ-unsplash\ \(2\).jpg);
     background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
     
 }
 
@@ -14,7 +16,13 @@ h1{
 }
 p{
     font-size: 1.875rem;
-    font-weight: 400;
+    font-weight: 500;
     color: aliceblue;
 }
 
+@media screen and  (max-width:762px) {
+
+    h1{
+        font-size: 60px;
+    }
+}
